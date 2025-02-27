@@ -1,0 +1,65 @@
+html{
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px #ccc;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap:1rem ;
+    align-items: center;
+}
+nav ul li a{
+    color: #444;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+nav ul li a:active{
+    color: seagreen;
+}
+.btn-kirish{
+    background-color: transparent;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border:1px solid seagreen ;
+    color: seagreen;
+    transition: all 0.2s;
+}
+.btn-kirish:hover{
+    background-color: seagreen;
+    color: #fff;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+section{
+    border: 1px solid#ccc;
+    background-color: ghostwhite;
+    max-width: 1200px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    min-height: 70vh ;
+}
+#asosiy{
+    background-color: lightpink;
+}
+#kasblar{
+    background-color: lightskyblue;
+}
+#kurslar{
+    background-color: aquamarine;
+}
